@@ -1,0 +1,67 @@
+/* navbar brand */
+a.navbar-brand{
+    /*padding: 10px;*/
+    background-color: skyblue;
+    color: white !important;
+    font-size: 30px;
+}
+
+.nav-item.dropdown.show{
+    background-color: skyblue;
+}
+/* header */
+h1{
+    background-color: white;
+    color: skyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+h2{
+    background-color: white;
+    color: skyblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* paragraphs */
+
+p{
+    padding: 10px;
+    font-size: 20px;
+}
+
+body{
+    background-color: skyblue;
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.img-thumbnail{
+    padding: 10px;
+    border: none;
+}
+
+table{
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bg-white{
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
