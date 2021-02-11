@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Wind Speed</title>
+  <title>Comparisons</title>
   <!--Set up Boostrap links and scripts-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css">
@@ -46,57 +46,40 @@
     </nav>
 
     <!--Create rows and columns, add images and set adjustments-->
-    <div class="container">
+    <div class="container bg-white">
+        <h2>Comparison: Latitude vs. X</h2>
+        <hr>
+        <p>Click on any of the plots to see and in-depth analysis.</p>
         <div class="row">
-            <div class="col-md-8">
-                <div class="col-md-12">
-                    <h2>Latitude vs. Cloudiness</h2>
-                    <hr>
-                    <img src="../Visualizations/lat_vs_wind_plot.png" alt="wind">
-                    <br>
-                    <!--Set up paragraphs for main page in txt file then drop into <p> sections-->
-                    <p>Though there was no strong correlation suggested in the scatter plot for wind speed vs. latitude, it is important to note that the vast majority of cities have wind speeds from 0 to low-20s, with very few cities lying above the 25mph mark.</p>
-                </div>
+            <div class="col-md-6">
+                <h2 class="text-center">vs. Max Temperature</h2>
+                <a href="max_temp.html">
+                <img src="../Visualizations/lat_vs_temp_plot.png" width=100% alt="temp">
+                </a>
             </div>
-            <!--Set up Visualizations adjustments below-->
-            <div class="col-md-4">
-                <div class="col-md-12">
-                    <h2>Visualizations</h2>
-                    <hr>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="max_temp.html">
-                            <img src="../Visualizations/lat_vs_temp_plot.png" width=100% alt="temp">
-                            </a>    
-                        </div>
-                        <div class="col-md-6">
-                            <a href="humidity.html">
-                            <img src="../Visualizations/lat_vs_humidity_plot.png" width=100% alt="humidity">
-                            </a>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="cloudiness.html">
-                            <img src="../Visualizations/lat_vs_cloudiness_plot.png" width=100% alt="cloudiness">
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="wind.html">
-                            <img src="../Visualizations/lat_vs_wind_plot.png" width=100% alt="wind">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <h2 class="text-center">vs. Humidity</h2>
+                <a href="humidity.html">
+                <img src="../Visualizations/lat_vs_humidity_plot.png" width=100% alt="humidity">
+                </a>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">vs. Cloudiness</h2>
+                <a href="cloudiness.html">
+                <img src="../Visualizations/lat_vs_cloudiness_plot.png" width=100% alt="cloudiness">
+                </a>
+            </div>
+            <div class="col-md-6">
+                <h2 class="text-center">vs. Wind Speed</h2>
+                <a href="wind.html">
+                <img src="../Visualizations/lat_vs_wind_plot.png" width=100% alt="wind">
+                </a>
             </div>
         </div>
     </div>
 
-    <!--Add a cool footer with name and Copyright logo-->
-
-
-
 </body>
-
 </html>
