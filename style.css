@@ -55,10 +55,9 @@ body{
     padding-right: 20px;
 }
 
-.container{
+.container.two{
     padding-top: 30px;
     padding-bottom: 50px;
-    /*overflow: hidden;*/
 }
 
 .img-thumbnail{
@@ -69,6 +68,7 @@ body{
 .container.bg-white{
     margin-top: 25px;
     padding-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 table{
@@ -88,3 +88,4 @@ table{
 .nav-item.dropdown.show{
     background-color: skyblue;
 }
+
