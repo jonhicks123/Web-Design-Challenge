@@ -89,3 +89,19 @@ table{
     background-color: skyblue;
 }
 
+/* media query to show dropdown but hide navbar on small screens */
+
+@media(max-width: 900px){
+    .navbar.bg-light{
+      background-color: skyblue !important;
+    }
+  
+    .navbar-collapse{
+      visibility: hidden;
+      background-color: skyblue;
+    }
+  
+    #nav-select{
+      visibility: visible;
+    }
+  }
