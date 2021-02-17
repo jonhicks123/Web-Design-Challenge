@@ -97,8 +97,7 @@ table{
     }
   
     .navbar-collapse{
-      visibility: hidden;
-      background-color: skyblue;
+      visibility: visible;
     }
   
     #nav-select{
